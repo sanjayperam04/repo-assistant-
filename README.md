@@ -20,25 +20,25 @@ Traditional code exploration requires extensive manual navigation, grep searches
 
 ## Key Features
 
-### 🔗 GitHub Integration
+### GitHub Integration
 Seamlessly clone and analyze any public GitHub repository by simply pasting its URL. Repositories are automatically cached for instant subsequent access.
 
-### 🔍 Intelligent Code Indexing
+### Intelligent Code Indexing
 Tree-sitter-based parsing extracts functions, classes, and variables from Python codebases, building a comprehensive symbol table for rapid navigation.
 
-### 🔎 Semantic Search
+### Semantic Search
 Find symbols, patterns, and code structures using natural language queries. Search across entire codebases in milliseconds.
 
-### 🧪 Safe Test Execution
+### Safe Test Execution
 Execute test suites (pytest) in sandboxed environments with structured result reporting and failure analysis.
 
-### 📊 Static Analysis
+### Static Analysis
 Integrated Ruff linting provides real-time code quality metrics, violation detection, and automated fix suggestions.
 
-### 🤖 AI-Powered Insights
+### AI-Powered Insights
 Leverage Groq's Llama 3.3 70B model for intelligent code explanations, architecture analysis, and development guidance.
 
-### 💾 Smart Caching
+### Smart Caching
 Cloned repositories persist locally, eliminating redundant network operations and enabling offline analysis.
 
 ## Architecture
@@ -286,10 +286,6 @@ Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTIN
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - [FastMCP](https://github.com/jlowin/fastmcp) - MCP server framework
@@ -297,12 +293,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Groq](https://groq.com/) - LLM inference platform
 - [Ruff](https://github.com/astral-sh/ruff) - Fast Python linter
 
-## Support
 
-- **Documentation**: [docs.legacycode-mcp.dev](https://docs.legacycode-mcp.dev)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/legacycode-mcp/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/legacycode-mcp/discussions)
-
----
-
-**Built with ❤️ for developers navigating legacy codebases**
